@@ -2,6 +2,7 @@ import MovieInput from "./Components/MovieInput";
 import MovieList from "./Components/MovieList";
 
 const App = () => {
+
   return (
     <div
       style={{

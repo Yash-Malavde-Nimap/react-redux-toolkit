@@ -9,7 +9,6 @@ const MovieInput = () => {
 
   const handleAddMovie = () => {
     if (movieInput) {
-      console.log(movieInput);
       dispatch(add_Movie(movieInput));
       setMovieInput("");
     }

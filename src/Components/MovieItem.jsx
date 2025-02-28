@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { edit_Movie, remove_Movie } from "../redux/movies/movieSlice";
+import { editMovie2, remove_Movie } from "../redux/movies/movieSlice";
 
 const MovieItem = ({ mov }) => {
   const dispatch = useDispatch();
@@ -19,7 +19,7 @@ const MovieItem = ({ mov }) => {
   const handleEditMovie = (id) => {
     if (editMovie) {
       const movie = { id: id, title: editMovie };
-      dispatch(edit_Movie(movie));
+      dispatch(editMovie2(movie));
     }
     setEdit(false);
   };
