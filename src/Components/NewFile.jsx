@@ -1,6 +1,8 @@
 const NewFile = () => {
   return (
-    <div>NewFile</div>
+    <div>
+      <h2>NewFile</h2>
+    </div>
   )
 }
 
