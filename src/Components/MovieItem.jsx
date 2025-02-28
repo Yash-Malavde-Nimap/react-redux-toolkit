@@ -78,7 +78,7 @@ const MovieItem = ({ mov }) => {
         }}
         onClick={() => toggleEdit()}
       >
-        Edit
+        {!edit ? "Edit" : "X"}
       </button>
       <button
         style={{
