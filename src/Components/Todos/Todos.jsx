@@ -43,7 +43,7 @@ const Todos = () => {
               maxWidth: "320px",
             }}
           >
-            {todos.todos.slice(0, 5).map((todo) => (
+            {todos.todos.slice(0, 50).map((todo) => (
               <TodoItem todo={todo} key={todo.id} />
             ))}
           </div>

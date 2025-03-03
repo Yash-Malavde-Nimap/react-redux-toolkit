@@ -32,18 +32,17 @@ const MovieItem = ({ mov }) => {
     <div
       style={{
         display: "flex",
-        justifyContent: "start",
+        justifyContent: "center",
         alignItems: "center",
         gap: "20px",
         padding: "10px",
-        border: "2px solid black",
+        border: "2px solid #b2b2b2",
         borderRadius: "10px",
-        maxWidth:"400px",
-        height: "60px", // Fixed height
-        overflow: "hidden", // Optional: prevents content from overflowing
-        wordWrap: "break-word", // Wraps text to the next line when it overflows
+        width: "450px",
+        height: "auto",
+        overflow: "hidden",
+        wordWrap: "break-word",
         whiteSpace: "normal",
-        margin:'4px'
       }}
     >
       {edit ? (
@@ -71,7 +70,14 @@ const MovieItem = ({ mov }) => {
           </button>
         </>
       ) : (
-        <p>{mov.title}</p>
+        <p
+          style={{
+            maxWidth: "200px",
+            margin: "4px",
+          }}
+        >
+          {mov.title}
+        </p>
       )}
 
       <button

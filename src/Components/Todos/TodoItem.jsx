@@ -4,19 +4,19 @@ const TodoItem = ({ todo }) => {
     <>
       <>
         <div
-          key={todo.id} // It's important to add a unique `key` for each mapped item
+          key={todo.id}
           style={{
             display: "flex",
             justifyContent: "start",
             alignItems: "center",
             gap: "20px",
             padding: "10px",
-            border: "2px solid black",
+            border: "2px solid #b2b2b2",
             borderRadius: "10px",
-            width: "350px", // Fixed width
-            height: "40px", // Fixed height
-            overflow: "hidden", // Optional: prevents content from overflowing
-            wordWrap: "break-word", // Wraps text to the next line when it overflows
+            width: "450px", 
+            height: "40px", 
+            overflow: "hidden",
+            wordWrap: "break-word",
             whiteSpace: "normal",
           }}
           onClick={() => console.log(todo)}

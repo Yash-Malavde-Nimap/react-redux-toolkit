@@ -7,7 +7,8 @@ const App = () => {
     <>
       <div
         style={{
-          background: "#faebd7",
+          background: "#140d18",
+          color:'white'
         }}
       >
         <MovieInput />
