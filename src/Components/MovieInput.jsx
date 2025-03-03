@@ -24,7 +24,9 @@ const MovieInput = () => {
         alignItems: "center",
         gap: "10px",
         // margin:'40px'
-        marginTop: "50px",
+        // marginTop: "50px",
+        paddingTop:"50px",
+        paddingBottom:"50px"
       }}
     >
       <h2>Add Movie</h2>

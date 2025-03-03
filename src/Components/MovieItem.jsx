@@ -32,13 +32,18 @@ const MovieItem = ({ mov }) => {
     <div
       style={{
         display: "flex",
-        justifyContent: "space-between",
+        justifyContent: "start",
         alignItems: "center",
         gap: "20px",
-        margin: "10px",
-        padding: "20px",
+        padding: "10px",
         border: "2px solid black",
-        borderRadius: "20px",
+        borderRadius: "10px",
+        maxWidth:"400px",
+        height: "60px", // Fixed height
+        overflow: "hidden", // Optional: prevents content from overflowing
+        wordWrap: "break-word", // Wraps text to the next line when it overflows
+        whiteSpace: "normal",
+        margin:'4px'
       }}
     >
       {edit ? (

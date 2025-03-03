@@ -12,6 +12,7 @@ const MovieList = () => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
+        paddingBottom:'40px'
       }}
     >
       <h2>MovieList</h2>
