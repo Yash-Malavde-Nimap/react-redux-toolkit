@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { editMovie2, remove_Movie } from "../redux/movies/movieSlice";
+import { editMovie2, remove_Movie } from "../store/movies/movieSlice";
 
 const MovieItem = ({ mov }) => {
   const dispatch = useDispatch();
